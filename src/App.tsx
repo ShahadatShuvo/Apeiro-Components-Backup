@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import DownloadFile from './components/Download/DownloadFile';
+import Plus from './components/DownloadPlus/Plus';
+import BasicModal from './components/Modal/BasicModal';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <DownloadFile fileName="Myfile.png" />
+      <Plus fileName="Myfile.png" />
+      <BasicModal />
     </div>
   );
 }
