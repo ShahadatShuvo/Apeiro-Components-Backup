@@ -1,3 +1,11 @@
 .upload__img input[type="file"]::-webkit-file-upload-button {
   display: none;
 }
+.downloadable{
+  width: 50%;
+  text-align: left;
+}
+.private{
+  width: 50%;
+  text-align: left;
+}

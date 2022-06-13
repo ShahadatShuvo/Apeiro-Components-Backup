@@ -6,7 +6,7 @@ import UploadFileCSS from "./UploadFile.module.css";
 
 function UploadFile() {
   return (
-    <div className={UploadFileCSS.upload__img}>
+    <div className={UploadFileCSS.upload__img} style={{ marginTop: "10px" }}>
       <label htmlFor="contained-button-file">
         <Button
           variant="outlined"
@@ -19,7 +19,6 @@ function UploadFile() {
         </Button>
         <Input
           disableUnderline
-          endAdornment
           accept="image/*"
           id="contained-button-file"
           multiple

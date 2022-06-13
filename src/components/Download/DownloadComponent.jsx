@@ -8,8 +8,8 @@ import noIMG from "../../images/nofile.png";
 import DownloadCSS from "../Download.module.css";
 
 function DownloadComponent(props) {
-  console.log("file url: ", props.file.data.attributes.url);
-  console.log("Index: ", props.index);
+  // console.log("file url: ", props.file.data.attributes.url);
+  // console.log("Index: ", props.index);
   const fileName = props.file.data.attributes.url;
   const fileExtension = fileName.split(".").pop();
   const fileType = fileExtension.toLowerCase();

@@ -3,7 +3,7 @@ import DownloadComponent from "./DownloadComponent";
 import { nanoid } from "nanoid";
 
 function DownloadFile(props) {
-  console.log("Data: ", Data);
+  // console.log("Data: ", Data); 
 
   const showData = Data.map((dataObj, index) => (
     <DownloadComponent key={nanoid()} {...dataObj} index={index} />
